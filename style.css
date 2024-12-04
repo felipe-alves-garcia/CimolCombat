@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color:rgb(87, 71, 238);
+    margin-left:15vw;
+    margin-top:3vw;
+}
+#alogo{
+    position:absolute;
+    z-index: 999;
+    margin-left:-10vw;
+    margin-top:-1vw;
+}
+#logo{
+    position:absolute;
+    width:10vw;
+    height:auto;
+    margin-top:0.3vw;
+}
+#logo:hover{
+    transform:scale(1.05);
+    opacity:0.9;
+    transition:200ms;
+}
+#asobre{
+    position: absolute;
+    background-color:  rgb(4, 35, 175);
+    border: yellow 2px solid;
+    border-radius:5px;
+    width:10vw;
+    height:3vw;
+    margin-left:-10.25vw;
+    margin-top:10vw;
+    text-decoration: none;
+}
+#asobre > p{
+    font-size:1.5vw;
+    font-family:'Times New Roman', Times, serif;
+    color: yellow;
+    width:10vw;
+    text-align: center;
+    margin:0;
+    padding:0;
+    padding-top:0.6vw;
+}
+#asobre:hover{
+    opacity: 0.7;
+}
+#tela{
+    width:70vw;
+    margin-left:5vw;
+    height:39.375vw;
+    position:absolute;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px black solid;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.541);
+}
+#comecar{
+    position: absolute;
+    background-color: rgb(4, 35, 175);
+    border: yellow 2px solid;
+    border-radius:5px;
+    width:10.2vw;
+    height:3.3vw;
+    margin-left:-10.25vw;
+    margin-top:15vw;
+    padding:0;
+}
+#comecar > p{
+    font-size:1.5vw;
+    font-family:Arial, Helvetica, sans-serif;
+    color: yellow;
+    width:10vw;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+#comecar:hover{
+    opacity: 0.7;
+}
+#denovo{
+    position: absolute;
+    background-color: rgb(4, 35, 175);
+    border: yellow 2px solid;
+    border-radius:5px;
+    width:10.2vw;
+    height:3.3vw;
+    margin-left:-10.25vw;
+    margin-top:15vw;
+    padding:0;
+    display: none;
+}
+#denovo > p{
+    font-size:1.4vw;
+    font-family:Arial, Helvetica, sans-serif;
+    color: yellow;
+    width:10vw;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+#denovo:hover{
+    opacity: 0.7;
+}
+section{
+    position:absolute;
+    width:80vw;
+    height:90vh;
+    background-color: white;
+    margin-left:5vw;
+    margin-top:-3vw;
+    padding-top: 10vh;
+}
+section > p{
+    width:60vw;
+    margin:0 auto;
+    font-size: 1.8vw;
+    text-align: justify;
+    margin-bottom:5vh;
+}
+#info{
+    position: absolute;
+    width:3vw;
+    height:auto;
+    right:4%;
+    margin-top:1vw;
+}
+#info:hover{
+    transition: 200ms;
+    transform:scale(0.95);
+    opacity: 9.0;
+}
+#botoes{
+    position: absolute;
+    width:70vw;
+    margin-left:5vw;
+    height:39.375vw;
+    border-radius: 20px;
+    border: 1px black solid;
+    display: none;
+}
